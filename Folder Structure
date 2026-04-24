@@ -1,0 +1,45 @@
+
+.
+├── README.md
+├── .gitignore
+├── package.json
+├── assets/
+│   └── preview.png
+├── .github/
+│   └── profile/
+│       └── README.md
+├── main-premium-nextjs/
+│   ├── package.json
+│   ├── next.config.js
+│   ├── jsconfig.json
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   ├── public/
+│   │   ├── favicon.ico
+│   │   ├── robots.txt
+│   │   └── site.webmanifest
+│   └── src/
+│       ├── app/
+│       │   ├── globals.css
+│       │   ├── layout.jsx
+│       │   ├── page.jsx
+│       │   ├── sitemap.js
+│       │   ├── projects/
+│       │   │   ├── [slug]/
+│       │   │   │   └── page.jsx
+│       │   │   └── page.jsx
+│       ├── components/
+│       │   ├── BackgroundFX.jsx
+│       │   ├── ContactSection.jsx
+│       │   ├── FeatureCard.jsx
+│       │   ├── GithubStats.jsx
+│       │   ├── Navbar.jsx
+│       │   ├── ParticleDots.jsx
+│       │   ├── ProjectCard.jsx
+│       │   ├── SectionTitle.jsx
+│       │   └── TechBadge.jsx
+│       └── data/
+│           └── portfolio.js
+├── demos/
+│   └── ... existing demo folders ...
+└── vercel.json
